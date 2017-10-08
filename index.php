@@ -10,10 +10,13 @@
 <?php
 echo('Index');
 var_dump($_SESSION);
+echo("<pre>");
 echo ("Cookie:test1");
 var_dump($_COOKIE["test1"]);
+echo("<pre>");
 echo ("Cookie:test2");
 var_dump($_COOKIE["test2"]);
+echo("<pre>");
 echo ("Cookie:test3");
 var_dump($_COOKIE["test3"]);
 ?>

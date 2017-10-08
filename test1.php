@@ -10,12 +10,14 @@
 <?php
 echo('test1');
 var_dump($_SESSION);
-setcookie("test1", "page1");
-
+setcookie("test1", rand());
+echo("<pre>");
 echo ("Cookie:test1");
 var_dump($_COOKIE["test1"]);
+echo("<pre>");
 echo ("Cookie:test2");
 var_dump($_COOKIE["test2"]);
+echo("<pre>");
 echo ("Cookie:test3");
 var_dump($_COOKIE["test3"]);
 ?>
