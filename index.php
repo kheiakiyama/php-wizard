@@ -8,6 +8,8 @@
 </head>
 <body>
 <?php
+echo gethostname();
+echo gethostbyname();
 echo('Index');
 var_dump($_SESSION);
 echo("<pre>");

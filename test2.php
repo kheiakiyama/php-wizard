@@ -8,6 +8,8 @@
 </head>
 <body>
 <?php
+echo gethostname();
+echo gethostbyname();
 echo('test2');
 var_dump($_SESSION);
 setcookie("test2", rand());
