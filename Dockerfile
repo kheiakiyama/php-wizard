@@ -1,5 +1,10 @@
 FROM isag17/docker-composer:latest
 
+RUN apt-get update && apt-get install -y \
+          vim \
+          --no-install-recommends && rm -r /var/lib/apt/lists/*
+RUN a2enmod rewrite
+
 ENV APP_HOME /var/www/html
 
 #copy project

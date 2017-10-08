@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^healthz/?$ http://%{HTTP_HOST}/index.php [R,L]
