@@ -8,6 +8,8 @@
 </head>
 <body>
 <?php
+var_dump(getenv('ENVIRONMENT'));
+
 echo gethostname();
 echo gethostbyname();
 echo('Index');
