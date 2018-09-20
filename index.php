@@ -9,6 +9,7 @@
 <body>
 <?php
 var_dump(getenv('ENVIRONMENT'));
+echo("<pre>");
 
 echo gethostname();
 echo gethostbyname();
